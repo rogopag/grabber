@@ -11,12 +11,14 @@ function fetch_feed()
 		var remote_time, file_time;
 		
 		xml.parse(body, function(e, parsed) {
-		         console.log(parsed.channel.pubDate);
-		        });
+			remote_time = Date.parse( parsed.channel.pubDate )
+		 });
 		
-		xml.parse(fs.readFileSync(file, 'utf-8'), function(e, parsed){
-			console.log( parsed.channel.pubDate );
+		xml.parse( fs.readFileSync(file, 'utf-8'), function(e, parsed){
+			file_time = Date.parse( parsed.channel.pubDate );
 		});
+		
+		console.log( file_time, remote_time );
 		
 		if( remote_time > file_time )
 		{
@@ -30,11 +32,10 @@ function fetch_feed()
 		{
 			console.log( "File exists already was written at %s", file_time )
 		}
+		fetch_timeout = setTimeout(fetch_feed, 60000)
 	});
 	
-	req.on('complete', function(err, response, body){
-		var fetch_timeout = setTimeout(fetch_feed, 60000);
-	});
+	req.end();
 };
 
 (function(){
