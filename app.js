@@ -19,6 +19,7 @@ app.configure(function(){
   app.use(express.session({ secret: 'your secret here' }));
   app.use(app.router);
   app.use(express.static(__dirname + '/public'));
+  app.use("/data", express.static(__dirname + '/data'));
 });
 
 app.configure('development', function(){

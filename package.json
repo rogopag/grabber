@@ -1,9 +1,11 @@
 {
-    "name": "application-name"
+    "name": "grabber"
   , "version": "0.0.1"
   , "private": true
   , "dependencies": {
       "express": "2.5.8"
     , "ejs": ">= 0.0.1"
+	, "request: "2.9.202"
+	, "xml-simple": "0.0.1"
   }
 }
