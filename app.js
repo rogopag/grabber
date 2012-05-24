@@ -4,6 +4,7 @@
  */
 
 var express = require('express')
+  , user = require('./lib/user')
   , routes = require('./routes');
 
 var app = module.exports = express.createServer();
@@ -16,7 +17,9 @@ app.configure(function(){
   app.use(express.bodyParser());
   app.use(express.methodOverride());
   app.use(express.cookieParser());
-  app.use(express.session({ secret: 'your secret here' }));
+  app.use(express.session({ secret: 'ellington' }));
+  app.use(user.passport.initialize());
+  app.use(user.passport.session());
   app.use(app.router);
   app.use(express.static(__dirname + '/public'));
   app.use("/data", express.static(__dirname + '/data'));
