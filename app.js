@@ -1,11 +1,12 @@
-
 /**
  * Module dependencies.
  */
 
 var express = require('express')
   , user = require('./lib/user')
-  , routes = require('./routes');
+  , routes = require('./routes')
+  , login = require('./routes/login')
+  , account = require('./routes/account');
 
 var app = module.exports = express.createServer();
 
@@ -34,9 +35,23 @@ app.configure('production', function(){
 });
 
 // Routes
-
 app.get('/', routes.index);
+app.get('/login', login.login);
 
+app.post('/login', 
+  user.passport.authenticate('local', { failureRedirect: '/login', failureFlash: true }),
+  function(req, res) {
+    res.redirect('/');
+  });
+
+app.get('/account', user.ensureAuthenticated, account);
+
+app.get('/logout', function(req, res){
+  req.logout();
+  res.redirect('/');
+});
+
+//go
 app.listen(3000, function(){
   console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
 });
