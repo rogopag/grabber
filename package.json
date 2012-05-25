@@ -5,7 +5,7 @@
   , "dependencies": {
       "express": "2.5.8"
     , "ejs": ">= 0.0.1"
-	, "request: "2.9.202"
+	, "request": "2.9.202"
 	, "xml-simple": "0.0.1"
 	, "passport": "0.1.8"
 	, "passport-local": "0.1.2"
