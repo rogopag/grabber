@@ -7,12 +7,12 @@ var express = require('express')
   , routes = require('./routes')
   , login = require('./routes/login')
   , account = require('./routes/account')
-  , socket = require('./lib/socket');
+  , Socket = require('./lib/socket').SocketListener;
 
 var server = module.exports = express.createServer();
 
 //start the socket server
-socket.listen(server);
+var socket = new Socket(server);
 
 // Configuration
 
