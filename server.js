@@ -6,52 +6,67 @@ var express = require('express')
   , user = require('./lib/user')
   , routes = require('./routes')
   , login = require('./routes/login')
-  , account = require('./routes/account');
+  , account = require('./routes/account')
+  , socket = require('./lib/socket');
 
-var app = module.exports = express.createServer();
+var server = module.exports = express.createServer();
+
+//start the socket server
+socket.listen(server);
 
 // Configuration
 
-app.configure(function(){
-  app.set('views', __dirname + '/views');
-  app.set('view engine', 'ejs');
-  app.use(express.bodyParser());
-  app.use(express.methodOverride());
-  app.use(express.cookieParser());
-  app.use(express.session({ secret: 'ellington' }));
-  app.use(user.passport.initialize());
-  app.use(user.passport.session());
-  app.use(app.router);
-  app.use(express.static(__dirname + '/public'));
-  app.use("/data", express.static(__dirname + '/data'));
+server.configure(function(){
+  server.set('views', __dirname + '/views');
+  server.set('view engine', 'ejs');
+  server.use(express.bodyParser());
+  server.use(express.methodOverride());
+  server.use(express.cookieParser());
+  server.use(express.session({ secret: 'ellington' }));
+  server.use(user.passport.initialize());
+  server.use(user.passport.session());
+  server.use(server.router);
+  server.use(express.static(__dirname + '/public'));
+  server.use("/data", express.static(__dirname + '/data'));
 });
 
-app.configure('development', function(){
-  app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
+server.configure('development', function(){
+  server.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
 });
 
-app.configure('production', function(){
-  app.use(express.errorHandler());
+server.configure('production', function(){
+  server.use(express.errorHandler());
 });
 
 // Routes
-app.get('/', routes.index);
-app.get('/login', login.login);
+server.get('/', routes.index);
+server.get('/login', login.login);
+server.post('/login', login.authenticate );
+server.get('/logout', login.logout);
+server.get('/account', user.ensureAuthenticated, account);
 
-app.post('/login', 
-  user.passport.authenticate('local', { failureRedirect: '/login', failureFlash: true }),
-  function(req, res) {
-    res.redirect('/');
-  });
 
-app.get('/account', user.ensureAuthenticated, account);
+// Helpers
+server.helpers({
+  renderScriptsAndStylesTags: function (all) {
+    if (all != undefined) {
+      return all.map(function(script) {
+        return script;
+      }).join('\n ');
+    }
+    else {
+      return '';
+    }
+  }
+});
 
-app.get('/logout', function(req, res){
-  req.logout();
-  res.redirect('/');
+server.dynamicHelpers({
+  scriptsAndStyles: function(req, res) {
+    return [];
+  }
 });
 
 //go
-app.listen( process.env['app_port'] || 3000, function(){
-  console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
+server.listen( process.env['server_port'] || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", server.address().port, server.settings.env);
 });

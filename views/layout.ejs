@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Passport-Local Example</title>
-	</head>
-	<body>
-		<% if (!user) { %>
-			<p>
-			<a href="/">Home</a> | 
-			<a href="/login">Log In</a>
-			</p>
-		<% } else { %>
-			<p>
-			<a href="/">Home</a> | 
-			<a href="/account">Account</a> | 
-			<a href="/logout">Log Out</a>
-			</p>
-		<% } %>
-		<%- body %>
-	</body>
-</html>
+<head>
+	<title>Passport-Local Example</title>
+	<link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<%- renderScriptsAndStylesTags(scriptsAndStyles) %>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="info-block">
+			<% if (!user) { %>
+				<p>
+					<a href="/">Home</a>
+				</p>
+				<% } else { %>
+					<p>
+						<a href="/">Home</a> | 
+						<a href="/account">Account</a> | 
+						<a href="/logout">Log Out</a>
+					</p>
+					<% } %>
+				</div>
+				<div id="page">
+					<%- body %>
+				</div>
+			</div>
+		</body>
+		</html>

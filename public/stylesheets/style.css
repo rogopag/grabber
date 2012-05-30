@@ -1,7 +1,15 @@
+@import url('http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css');
 body {
-  padding: 50px;
+  padding: 0px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 a {
   color: #00B7FF;
 }
+#wrapper{padding:12px;}
+#page h2{padding-bottom:15px;}
+p{padding-bottom:10px;}
+form#login-form div{float:left;padding-right:10px;}
+form#login-form div label{font-size:12px;color:rgb(110,110,110);}
+div#messages{padding-top:20px;font-family:Helvetica, Arial, sans-serif;font-size:10px;color:rgb(120,120,120);}
+div#messages p{padding-bottom:5px;}

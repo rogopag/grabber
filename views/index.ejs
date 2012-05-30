@@ -1,5 +1,14 @@
+<% scriptsAndStyles.push(
+	'<link rel="stylesheet" href="js/ninjaui/ninjaui.css" type="text/css" media="screen" title="no title" charset="utf-8">',
+	'<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>',
+	'<script src="js/ninjaui/ninjaui.js" type="text/javascript" charset="utf-8"></script>',
+	'<script src="/socket.io/socket.io.js"></script>',
+	'<script src="js/js.js" type="text/javascript" charset="utf-8"></script>'
+) %>
 <% if (!user) { %>
-	<h2>Welcome! Please log in.</h2>
+	<h2>Welcome! Please <a href="/login">Log In</a>.</h2>
 <% } else { %>
 	<h2>Hello, <%= user.username %>.</h2>
+	<% appform = partial('appform.ejs') %>
+	<%- appform %>
 <% } %>
