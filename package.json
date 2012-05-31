@@ -1,5 +1,6 @@
 {
-    "name": "grabber"
+	"node":"0.6.17"
+  , "name": "grabber"
   , "version": "0.0.1"
   , "private": true
   , "dependencies": {
