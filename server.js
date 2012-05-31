@@ -12,7 +12,7 @@ var express = require('express')
 var server = module.exports = express.createServer();
 
 //start the socket server
-var socket = new Socket(server);
+const socket = new Socket(server);
 
 // Configuration
 
