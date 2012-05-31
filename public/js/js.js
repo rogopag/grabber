@@ -7,7 +7,7 @@ function main()
 	
 	var Client = {
 		self:null,
-		socket:io.connect('http://localhost:3000'),
+		socket:io.connect('/'),
 		init:function()
 		{
 			self = this;
