@@ -76,7 +76,8 @@ function main()
 			},
 			printBox:function( name, url, selected )
 			{
-				var container = $('<div class="grabbers_box" id="'+name+'_box"/>')
+				var team_box = $('<div class="team_box" id="team_'+name+'_box"/>')
+				, container = $('<div class="grabbers_box" id="'+name+'_box"/>')
 				, h3 =  $('<h3 class="grabbers_box_title" id="'+name+'_title"/>')
 				, buttonDiv = $('<div class="grabber-button" id="'+name+'_button"></div>')
 				, messages = $('<div class="messages" id="'+name+'_messages"></div>')
@@ -90,13 +91,14 @@ function main()
 				span.text(" url: "+url);
 				h3.append(span);
 				container.append(h3, buttonDiv, messages);
-				$("#boxes").append( container );
+				team_box.append(container);
+				$("#boxes").append( team_box );
 			},
 			updateInputs:function( d )
 			{
 				var data = d;
 				$.each(data, function(key, value){
-					if( key != 'message' )
+					if( key != 'message' && key != 'feed' )
 					{
 						$("input#"+data.name+"_"+key).val(value);
 					}
@@ -122,6 +124,12 @@ function main()
 						self.updateInputs(data);
 					}
 				});
+				self.socket.on('downloaded', function(data){
+					if(data)
+					{
+						self.messages(data.name, data.message);
+					}
+				});
 				self.socket.on('stopped', function (data) {
 					if(data)
 					{
@@ -131,9 +139,29 @@ function main()
 				});
 				
 				self.socket.on('news', function (data) {
-					console.log( data.name, data.message );
+					console.log( 'news', data );
 					self.messages(data.name, data.message);
+					if( data.feed )
+					{
+						var box = $('<div class="feed_box" id="feed_'+data.name+'_box" />');
+						if( $('#feed_'+data.name+'_box').is('div') )
+						{
+							$('#feed_'+data.name+'_box').fadeOut(400, function(){
+								$(this).remove();
+							})
+						}
+						box.append( self.buildHtmlFromFeed(data.feed) );
+						$("#"+data.name+"_box").after( box );
+						box.fadeIn(400);
+						console.log("feed ", data.feed, $("#"+data.name+"_box").attr('class'), box.attr('class') );
+					}
 				});
+			},
+			buildHtmlFromFeed:function(feed)
+			{
+				var html = '<a href="'+feed.link+'">'+feed.title+'</a>';
+					html += feed.description;
+					return html;
 			},
 			messages:function(name, message)
 			{
@@ -141,14 +169,19 @@ function main()
 				p.hide();
 				p.text(message);
 				$("#"+name+"_messages").append(p).fadeIn(200, function(){
-					if( $(this).children('p').length > 3 )
+					console.log( "the lenght of ps in messages is " + $(this).children('p').length );
+					if( $(this).children('p').length > 4 )
 					{
-						$(this).children('p').eq(1).fadeOut(100, function(){
-							console.log( $(this).attr('class'), 'removed')
-						});
+						for(var i=1;i<4;i++)
+						{
+							$(this).children('p').eq(i).fadeOut(300, function(){
+								$(this).remove();
+								console.log( $(this).attr('class'), 'removed')
+							});
+						}
 					}
 				});
-				p.fadeIn(200);
+				p.fadeIn(600);
 			},
 			boxFields:function(name, container)
 			{
