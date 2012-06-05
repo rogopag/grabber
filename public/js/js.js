@@ -131,6 +131,7 @@ function main()
 				});
 				
 				self.socket.on('news', function (data) {
+					console.log( data.name, data.message );
 					self.messages(data.name, data.message);
 				});
 			},
