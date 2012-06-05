@@ -116,6 +116,14 @@ function main()
 					}
 					
 				});
+				self.socket.on('destroyed', function (data){
+					if( data )
+					{
+						var parent = $("#"+data.name+"_create_grabber").parent();
+						console.log( parent.attr('id') );
+					}
+					
+				});
 				self.socket.on('started', function (data) 
 				{
 					if(data)
@@ -172,9 +180,9 @@ function main()
 					console.log( "the lenght of ps in messages is " + $(this).children('p').length );
 					if( $(this).children('p').length > 4 )
 					{
-						for(var i=1;i<4;i++)
+						for(var i=1; i < 4; i++)
 						{
-							$(this).children('p').eq(i).fadeOut(300, function(){
+							$(this).children('p').eq(i).fadeOut(200, function(){
 								$(this).remove();
 								console.log( $(this).attr('class'), 'removed')
 							});
