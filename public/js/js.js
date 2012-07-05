@@ -119,7 +119,11 @@ function main()
 				self.socket.on('destroyed', function (data){
 					if( data )
 					{
-						var parent = $("#"+data.name+"_create_grabber").parent();
+						console.log(data);
+						var parent = $('#team_'+data.name+'_box');
+						parent.fadeOut(300, function(){
+							$(this).remove();
+						});
 						console.log( parent.attr('id') );
 					}
 					
@@ -193,7 +197,7 @@ function main()
 			},
 			boxFields:function(name, container)
 			{
-				var fields = ['index', 'name', 'url', 'status', 'timestamp', 'file'];
+				var fields = ['index', 'name', 'url', 'file', 'status'];
 				$.each(fields, function(key, value){
 					var field = $('<input type="hidden" name="'+name+'_'+value+'" value="" id="'+name+'_'+value+'">');
 					container.append(field);

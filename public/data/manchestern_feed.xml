@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:yt="http://gdata.youtube.com/schemas/2007" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Youtube MU</title>
+      <description>Searches Youtube directly instead of using Yahoo search - important for proper enclosures in your RSS feeds.</description>
+      <link>http://pipes.yahoo.com/pipes/pipe.info?_id=8bff81e25588ddf81f32894da079ed9e</link>
+      <atom:link rel="next" href="http://pipes.yahoo.com/pipes/pipe.run?_id=8bff81e25588ddf81f32894da079ed9e&amp;_render=rss&amp;page=2"/>
+      <pubDate>Wed, 20 Jun 2012 09:02:12 +0000</pubDate>
+      <generator>http://pipes.yahoo.com/pipes/</generator>
+      <item>
+         <title>Shinji Kagawa Official Manchester United interview</title>
+         <link>http://www.youtube.com/watch?v=FPjvDvxvFjY&amp;feature=youtube_gdata</link>
+         <author>PlayStationLover09</author>
+         <guid isPermaLink="false">tag:youtube.com,2008:video:FPjvDvxvFjY</guid>
+         <pubDate>Thu, 14 Jun 2012 20:57:11 +0000</pubDate>
+         <media:group>
+            <media:category label="Sports" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Sports</media:category>
+            <media:content duration="122" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="http://www.youtube.com/v/FPjvDvxvFjY?version=3&amp;f=videos&amp;app=youtube_gdata" yt:format="5"/>
+            <media:content duration="122" expression="full" medium="video" type="video/3gpp" url="rtsp://v1.cache2.c.youtube.com/CiILENy73wIaGQk2Fm_8Du_4FBMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp" yt:format="1"/>
+            <media:content duration="122" expression="full" medium="video" type="video/3gpp" url="rtsp://v6.cache8.c.youtube.com/CiILENy73wIaGQk2Fm_8Du_4FBMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="PlayStationLover09">playstationlover09</media:credit>
+            <media:description type="plain">Shinji Kagawa Official Manchester United interview</media:description>
+            <media:license href="http://www.youtube.com/t/terms" type="text/html">youtube</media:license>
+            <media:player url="http://www.youtube.com/watch?v=FPjvDvxvFjY&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail height="90" time="00:01:01" url="http://i.ytimg.com/vi/FPjvDvxvFjY/default.jpg" width="120" yt:name="default"/>
+            <media:thumbnail height="180" url="http://i.ytimg.com/vi/FPjvDvxvFjY/mqdefault.jpg" width="320" yt:name="mqdefault"/>
+            <media:thumbnail height="360" url="http://i.ytimg.com/vi/FPjvDvxvFjY/hqdefault.jpg" width="480" yt:name="hqdefault"/>
+            <media:thumbnail height="90" time="00:00:30.500" url="http://i.ytimg.com/vi/FPjvDvxvFjY/1.jpg" width="120" yt:name="start"/>
+            <media:thumbnail height="90" time="00:01:01" url="http://i.ytimg.com/vi/FPjvDvxvFjY/2.jpg" width="120" yt:name="middle"/>
+            <media:thumbnail height="90" time="00:01:31.500" url="http://i.ytimg.com/vi/FPjvDvxvFjY/3.jpg" width="120" yt:name="end"/>
+            <media:title type="plain">Shinji Kagawa Official Manchester United interview</media:title>
+            <yt:duration seconds="122"/>
+         </media:group>
+      </item>
+      <item>
+         <title>Making of Video: DHL - Delivering Manchester United to the World</title>
+         <link>http://www.youtube.com/watch?v=vTrVpj3RESk&amp;feature=youtube_gdata</link>
+         <author>dhl</author>
+         <guid isPermaLink="false">tag:youtube.com,2008:video:vTrVpj3RESk</guid>
+         <pubDate>Thu, 24 May 2012 17:01:53 +0000</pubDate>
+         <media:group>
+            <media:category label="Sports" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Sports</media:category>
+            <media:content duration="116" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="http://www.youtube.com/v/vTrVpj3RESk?version=3&amp;f=videos&amp;app=youtube_gdata" yt:format="5"/>
+            <media:content duration="116" expression="full" medium="video" type="video/3gpp" url="rtsp://v8.cache6.c.youtube.com/CiILENy73wIaGQkpEdE9ptU6vRMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp" yt:format="1"/>
+            <media:content duration="116" expression="full" medium="video" type="video/3gpp" url="rtsp://v4.cache5.c.youtube.com/CiILENy73wIaGQkpEdE9ptU6vRMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="dhl">dhl</media:credit>
+            <media:description type="plain">Get a glimpse behind the scenes during the making of the Manchester United TV spot, where the world's most international company teams up with football superstars Ryan Giggs, Javier Hernandez, Wayne Rooney, Park Ji Sung and club manager Sir Alex Ferguson to deliver the message that there is a committed team of international specialists and a world-class Express delivery network behind every shipment. By supporting its partners such as Manchester United, DHL demonstrates how providing logistics expertise enables it to play a key role for global organizations, operating as a 'team behind the team'. Special on dhl.com: bit.ly</media:description>
+            <media:license href="http://www.youtube.com/t/terms" type="text/html">youtube</media:license>
+            <media:player url="http://www.youtube.com/watch?v=vTrVpj3RESk&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail height="90" time="00:00:58" url="http://i.ytimg.com/vi/vTrVpj3RESk/default.jpg" width="120" yt:name="default"/>
+            <media:thumbnail height="180" url="http://i.ytimg.com/vi/vTrVpj3RESk/mqdefault.jpg" width="320" yt:name="mqdefault"/>
+            <media:thumbnail height="360" url="http://i.ytimg.com/vi/vTrVpj3RESk/hqdefault.jpg" width="480" yt:name="hqdefault"/>
+            <media:thumbnail height="90" time="00:00:29" url="http://i.ytimg.com/vi/vTrVpj3RESk/1.jpg" width="120" yt:name="start"/>
+            <media:thumbnail height="90" time="00:00:58" url="http://i.ytimg.com/vi/vTrVpj3RESk/2.jpg" width="120" yt:name="middle"/>
+            <media:thumbnail height="90" time="00:01:27" url="http://i.ytimg.com/vi/vTrVpj3RESk/3.jpg" width="120" yt:name="end"/>
+            <media:title type="plain">Making of Video: DHL - Delivering Manchester United to the World</media:title>
+            <yt:duration seconds="116"/>
+         </media:group>
+      </item>
+      <item>
+         <title>Manchester United has 659 million followers worldwide / worlds biggest club</title>
+         <link>http://www.youtube.com/watch?v=3Keu57voP48&amp;feature=youtube_gdata</link>
+         <author>ManUtd0fficial</author>
+         <guid isPermaLink="false">tag:youtube.com,2008:video:3Keu57voP48</guid>
+         <pubDate>Tue, 29 May 2012 17:18:48 +0000</pubDate>
+         <media:group>
+            <media:category label="Sports" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Sports</media:category>
+            <media:content duration="129" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="http://www.youtube.com/v/3Keu57voP48?version=3&amp;f=videos&amp;app=youtube_gdata" yt:format="5"/>
+            <media:content duration="129" expression="full" medium="video" type="video/3gpp" url="rtsp://v5.cache6.c.youtube.com/CiILENy73wIaGQmPP-i7566n3BMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp" yt:format="1"/>
+            <media:content duration="129" expression="full" medium="video" type="video/3gpp" url="rtsp://v6.cache6.c.youtube.com/CiILENy73wIaGQmPP-i7566n3BMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="ManUtd0fficial">manutd0fficial</media:credit>
+            <media:description type="plain">Manchester United has 659 million followers worldwide: twitter.com - 71 million in Americas - 90 million in Europe - 173 million in Africa and the Middle East - 325 million in Asia Source: Kantar, May 2012 The largest global football follower survey ever conducted has today named Manchester United the world's most popular club, with 659 million followers worldwide. The survey was carried out by leading market research agency, Kantar, and gathered 54000 respondents from 39 countries. The club that Forbes recently named the most valuable in world sport was identified as the favourite team of 659 million followers around the world. Kantar found that football remains the world's most popular sport, with 1.6 billion followers globally, reinforcing the results of a recent FIFA survey which produced a similar figure. Richard Arnold, the club's Commercial Director, commented on the long-term strategy that has made Manchester United the number one club in the world's number one sport: &quot;Manchester United has built on a tradition of iconic players, iconic teams and iconic achievements -- Beckham, Busby, Benfica '68. Now our games are broadcast to 1.15 billion households globally, to an audience of over four billion a year. Manchester United resonates with followers all over the world, and it's their passion and support that means year after year we can continue doing what matters most to everyone at the club: playing attacking football and competing for trophies. &quot;The growth in our &amp;lt;b&amp;gt;...&amp;lt;/b&amp;gt;</media:description>
+            <media:license href="http://www.youtube.com/t/terms" type="text/html">youtube</media:license>
+            <media:player url="http://www.youtube.com/watch?v=3Keu57voP48&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail height="90" time="00:01:04.500" url="http://i.ytimg.com/vi/3Keu57voP48/default.jpg" width="120" yt:name="default"/>
+            <media:thumbnail height="180" url="http://i.ytimg.com/vi/3Keu57voP48/mqdefault.jpg" width="320" yt:name="mqdefault"/>
+            <media:thumbnail height="360" url="http://i.ytimg.com/vi/3Keu57voP48/hqdefault.jpg" width="480" yt:name="hqdefault"/>
+            <media:thumbnail height="90" time="00:00:32.250" url="http://i.ytimg.com/vi/3Keu57voP48/1.jpg" width="120" yt:name="start"/>
+            <media:thumbnail height="90" time="00:01:04.500" url="http://i.ytimg.com/vi/3Keu57voP48/2.jpg" width="120" yt:name="middle"/>
+            <media:thumbnail height="90" time="00:01:36.750" url="http://i.ytimg.com/vi/3Keu57voP48/3.jpg" width="120" yt:name="end"/>
+            <media:title type="plain">Manchester United has 659 million followers worldwide / worlds biggest club</media:title>
+            <yt:duration seconds="129"/>
+         </media:group>
+      </item>
+      <item>
+         <title>Manchester United - Where Legends Are Born</title>
+         <link>http://www.youtube.com/watch?v=GEdW_LIxAbQ&amp;feature=youtube_gdata</link>
+         <author>IndeedeeGraphics</author>
+         <guid isPermaLink="false">tag:youtube.com,2008:video:GEdW_LIxAbQ</guid>
+         <pubDate>Sat, 26 May 2012 04:00:27 +0000</pubDate>
+         <media:group>
+            <media:category label="Sports" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Sports</media:category>
+            <media:content duration="290" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="http://www.youtube.com/v/GEdW_LIxAbQ?version=3&amp;f=videos&amp;app=youtube_gdata" yt:format="5"/>
+            <media:content duration="290" expression="full" medium="video" type="video/3gpp" url="rtsp://v4.cache7.c.youtube.com/CiILENy73wIaGQm0ATGy_FZHGBMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp" yt:format="1"/>
+            <media:content duration="290" expression="full" medium="video" type="video/3gpp" url="rtsp://v3.cache5.c.youtube.com/CiILENy73wIaGQm0ATGy_FZHGBMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="IndeedeeGraphics">indeedeegraphics</media:credit>
+            <media:description type="plain">Any hateful comments about Manchester United will be deleted and users blocked - this is not up for debate, it's a fact. It won't be tolerated and this is not the place to have childish arguments - and keep it strictly ON TOPIC. I Respect other clubs, I don't hate them. Without the Liverpool, Arsenal, Spurs, Chelsea, Newcastle, Everton, City etc clashes, it wouldn't be exciting watching United. Football is about rivalry not about hate. Anyone saying it different got it totally wrong. This video were made for those who LIKE United not for the HATERS. Like Indeedee Graphics on Facebook: www.facebook.com Follow Indeedee Graphics on Twitter: http</media:description>
+            <media:license href="http://www.youtube.com/t/terms" type="text/html">youtube</media:license>
+            <media:player url="http://www.youtube.com/watch?v=GEdW_LIxAbQ&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail height="90" time="00:02:25" url="http://i.ytimg.com/vi/GEdW_LIxAbQ/default.jpg" width="120" yt:name="default"/>
+            <media:thumbnail height="180" url="http://i.ytimg.com/vi/GEdW_LIxAbQ/mqdefault.jpg" width="320" yt:name="mqdefault"/>
+            <media:thumbnail height="360" url="http://i.ytimg.com/vi/GEdW_LIxAbQ/hqdefault.jpg" width="480" yt:name="hqdefault"/>
+            <media:thumbnail height="90" time="00:01:12.500" url="http://i.ytimg.com/vi/GEdW_LIxAbQ/1.jpg" width="120" yt:name="start"/>
+            <media:thumbnail height="90" time="00:02:25" url="http://i.ytimg.com/vi/GEdW_LIxAbQ/2.jpg" width="120" yt:name="middle"/>
+            <media:thumbnail height="90" time="00:03:37.500" url="http://i.ytimg.com/vi/GEdW_LIxAbQ/3.jpg" width="120" yt:name="end"/>
+            <media:title type="plain">Manchester United - Where Legends Are Born</media:title>
+            <yt:duration seconds="290"/>
+         </media:group>
+      </item>
+      <item>
+         <title>Manchester United Vs Liverpool FA CUP</title>
+         <link>http://www.youtube.com/watch?v=NpsG2g8JTWs&amp;feature=youtube_gdata</link>
+         <author>Azher Wm</author>
+         <guid isPermaLink="false">tag:youtube.com,2008:video:NpsG2g8JTWs</guid>
+         <pubDate>Wed, 06 Jun 2012 22:14:17 +0000</pubDate>
+         <media:group>
+            <media:category label="Sports" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Sports</media:category>
+            <media:content duration="179" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="http://www.youtube.com/v/NpsG2g8JTWs?version=3&amp;f=videos&amp;app=youtube_gdata" yt:format="5"/>
+            <media:content duration="179" expression="full" medium="video" type="video/3gpp" url="rtsp://v2.cache2.c.youtube.com/CiILENy73wIaGQlrTQkP2gabNhMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp" yt:format="1"/>
+            <media:content duration="179" expression="full" medium="video" type="video/3gpp" url="rtsp://v3.cache7.c.youtube.com/CiILENy73wIaGQlrTQkP2gabNhMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="Azher Wm">azherwm1</media:credit>
+            <media:description type="plain">Fantastic Comeback From Manchester United 2-1 IGNORE TAGS : Brazil vs Cote D'Ivoire 3:1 Italy vs New Zealand 1:1 Slovakia vs Paraguay 0:2 Cameroon vs Danmark 1:2 Ghana vs Australia 1:1 Netherlands vs Japan 1:0 England vs Algeria 0:0 Slovenia vs USA 2:2 Germany vs Serbia 0:1 France vs Nigeria 0:2 Greece vs Nigeria 2:1 Argentina vs South Korea 4:1 South Africa vs Uruguay 0:3 Spain vs Switzerland 0:1 Honduras vs Chile 0:1 Brazil vs North Korea 2:1 Portugal vs Cote D'Ivoire 0:0 New Zealand vs Slovakia 1:1 Italy vs Paraguay 1:1 Japan vs Cameroon 1:0 Netherlands vs Danmark 2:0 Germany vs Australia 4:0 Serbia vs Ghana 0:1 Algeria vs Slovenia 0:1 England vs USA 1:1 Argentina vs Nigeria 1:0 South Korea vs Greece 2:0 Uruguay vs France 0:0 South Africa vs Mexico 1:1Sergio Kun Agüero (Atlético Madrid)Samir Nasri (Arsenal)Fernando Torres (Liverpool)Zlatan Ibrahimovic(Inter Milan)Kaká (AC Milan)Wayne Rooney (Manchester United) Cesc Fabregas (Arsenal)Ronaldinho(AC Milan)Cristiano Ronaldo (Manchester United)Lionel Messi(Barcelona)Gianluigi Buffon(Juventus),Iker Casillas(Real Madrid),Petr Cech(Chelsea),Edwin van der Sar(Manchester United),Fabio Cannavaro (Real Madrid), Rio Ferdinand (Manchester United), Paolo Maldini (AC Milan), Alessandro Nesta (AC Milan), Carles Puyol (Barcelona), John Terry (Chelsea) (Barcelona), Thierry Henry (Barcelona), Zlatan Ibrahimovic (Inter Milan), Wayne Rooney (Machester United), Carlos Tevez (Manchester United), Fernando Torres (Liverpool), Ruud Van &amp;lt;b&amp;gt;...&amp;lt;/b&amp;gt;</media:description>
+            <media:license href="http://www.youtube.com/t/terms" type="text/html">youtube</media:license>
+            <media:player url="http://www.youtube.com/watch?v=NpsG2g8JTWs&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail height="90" time="00:01:29.500" url="http://i.ytimg.com/vi/NpsG2g8JTWs/default.jpg" width="120" yt:name="default"/>
+            <media:thumbnail height="180" url="http://i.ytimg.com/vi/NpsG2g8JTWs/mqdefault.jpg" width="320" yt:name="mqdefault"/>
+            <media:thumbnail height="360" url="http://i.ytimg.com/vi/NpsG2g8JTWs/hqdefault.jpg" width="480" yt:name="hqdefault"/>
+            <media:thumbnail height="90" time="00:00:44.750" url="http://i.ytimg.com/vi/NpsG2g8JTWs/1.jpg" width="120" yt:name="start"/>
+            <media:thumbnail height="90" time="00:01:29.500" url="http://i.ytimg.com/vi/NpsG2g8JTWs/2.jpg" width="120" yt:name="middle"/>
+            <media:thumbnail height="90" time="00:02:14.250" url="http://i.ytimg.com/vi/NpsG2g8JTWs/3.jpg" width="120" yt:name="end"/>
+            <media:title type="plain">Manchester United Vs Liverpool FA CUP</media:title>
+            <yt:duration seconds="179"/>
+         </media:group>
+      </item>
+      <item>
+         <title>Sporty News: Manchester United is the world's most popular team</title>
+         <link>http://www.youtube.com/watch?v=oR8KqX4klrE&amp;feature=youtube_gdata</link>
+         <author>TRACESPORTSENG</author>
+         <guid isPermaLink="false">tag:youtube.com,2008:video:oR8KqX4klrE</guid>
+         <pubDate>Wed, 13 Jun 2012 15:43:47 +0000</pubDate>
+         <media:group>
+            <media:category label="Sports" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Sports</media:category>
+            <media:content duration="337" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="http://www.youtube.com/v/oR8KqX4klrE?version=3&amp;f=videos&amp;app=youtube_gdata" yt:format="5"/>
+            <media:content duration="337" expression="full" medium="video" type="video/3gpp" url="rtsp://v4.cache1.c.youtube.com/CiILENy73wIaGQmxliR-qQofoRMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp" yt:format="1"/>
+            <media:content duration="337" expression="full" medium="video" type="video/3gpp" url="rtsp://v5.cache7.c.youtube.com/CiILENy73wIaGQmxliR-qQofoRMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="TRACESPORTSENG" yt:type="partner">tracesportseng</media:credit>
+            <media:description type="plain">In Sporty News today: Euro 2012, Cristiano Ronaldo, Manchester United, Amir Khan, and Christian Poulse. TRACE Sports is a new HD TV Channel proposing factual entertainment and lifestyle content exclusively dedicated to sports celebrities. Official website: www.tracesports.tv Find TRACE Sports on Facebook: www.facebook.com Follow TRACE Sports on Twitter: www.twitter.com</media:description>
+            <media:license href="http://www.youtube.com/t/terms" type="text/html">youtube</media:license>
+            <media:player url="http://www.youtube.com/watch?v=oR8KqX4klrE&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail height="90" time="00:02:48.500" url="http://i.ytimg.com/vi/oR8KqX4klrE/default.jpg" width="120" yt:name="default"/>
+            <media:thumbnail height="180" url="http://i.ytimg.com/vi/oR8KqX4klrE/mqdefault.jpg" width="320" yt:name="mqdefault"/>
+            <media:thumbnail height="360" url="http://i.ytimg.com/vi/oR8KqX4klrE/hqdefault.jpg" width="480" yt:name="hqdefault"/>
+            <media:thumbnail height="90" time="00:01:24.250" url="http://i.ytimg.com/vi/oR8KqX4klrE/1.jpg" width="120" yt:name="start"/>
+            <media:thumbnail height="90" time="00:02:48.500" url="http://i.ytimg.com/vi/oR8KqX4klrE/2.jpg" width="120" yt:name="middle"/>
+            <media:thumbnail height="90" time="00:04:12.750" url="http://i.ytimg.com/vi/oR8KqX4klrE/3.jpg" width="120" yt:name="end"/>
+            <media:title type="plain">Sporty News: Manchester United is the world's most popular team</media:title>
+            <yt:duration seconds="337"/>
+         </media:group>
+      </item>
+      <item>
+         <title>Cristiano Ronaldo - Manchester United Memories HD | Skills &amp; Goals | by AmIgOSuperCR7</title>
+         <link>http://www.youtube.com/watch?v=2-DplxN3ggY&amp;feature=youtube_gdata</link>
+         <author>AmIgOSuperCR7</author>
+         <guid isPermaLink="false">tag:youtube.com,2008:video:2-DplxN3ggY</guid>
+         <pubDate>Mon, 28 May 2012 09:02:06 +0000</pubDate>
+         <media:group>
+            <media:category label="Sports" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Sports</media:category>
+            <media:content duration="165" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="http://www.youtube.com/v/2-DplxN3ggY?version=3&amp;f=videos&amp;app=youtube_gdata" yt:format="5"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="AmIgOSuperCR7">amigosupercr7</media:credit>
+            <media:description type="plain">●Made by: AmIgOSuperCR7: www.youtube.com ●Join on Facebook: www.facebook.com ●Second Facebook: www.facebook.com ●Song Name: Machine Gun Kelly - Invincible ●Like, Comment, Share &amp;amp; SUBSCRIBE ! Cristiano Ronaldo - Manchester United Memories HD Cristiano Ronaldo Best Player Cristiano Ronaldo best of 2008 2009 Manchester United &quot;Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for &quot;fair use&quot; for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use.&quot;</media:description>
+            <media:license href="http://www.youtube.com/t/terms" type="text/html">youtube</media:license>
+            <media:player url="http://www.youtube.com/watch?v=2-DplxN3ggY&amp;feature=youtube_gdata_player"/>
+            <media:restriction relationship="deny" type="country">DE</media:restriction>
+            <media:thumbnail height="90" time="00:01:22.500" url="http://i.ytimg.com/vi/2-DplxN3ggY/default.jpg" width="120" yt:name="default"/>
+            <media:thumbnail height="180" url="http://i.ytimg.com/vi/2-DplxN3ggY/mqdefault.jpg" width="320" yt:name="mqdefault"/>
+            <media:thumbnail height="360" url="http://i.ytimg.com/vi/2-DplxN3ggY/hqdefault.jpg" width="480" yt:name="hqdefault"/>
+            <media:thumbnail height="90" time="00:00:41.250" url="http://i.ytimg.com/vi/2-DplxN3ggY/1.jpg" width="120" yt:name="start"/>
+            <media:thumbnail height="90" time="00:01:22.500" url="http://i.ytimg.com/vi/2-DplxN3ggY/2.jpg" width="120" yt:name="middle"/>
+            <media:thumbnail height="90" time="00:02:03.750" url="http://i.ytimg.com/vi/2-DplxN3ggY/3.jpg" width="120" yt:name="end"/>
+            <media:title type="plain">Cristiano Ronaldo - Manchester United Memories HD | Skills &amp;amp; Goals | by AmIgOSuperCR7</media:title>
+            <yt:duration seconds="165"/>
+         </media:group>
+      </item>
+      <item>
+         <title>Nick Powell - Welcome to Manchester United</title>
+         <link>http://www.youtube.com/watch?v=cn5qv9d4jbE&amp;feature=youtube_gdata</link>
+         <author>Mathew John</author>
+         <guid isPermaLink="false">tag:youtube.com,2008:video:cn5qv9d4jbE</guid>
+         <pubDate>Tue, 12 Jun 2012 18:43:03 +0000</pubDate>
+         <media:group>
+            <media:category label="Sports" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Sports</media:category>
+            <media:content duration="134" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="http://www.youtube.com/v/cn5qv9d4jbE?version=3&amp;f=videos&amp;app=youtube_gdata" yt:format="5"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="Mathew John">mergez82xmecdEax1lABDA</media:credit>
+            <media:description type="plain">Nick Powell signs for Manchester United on a four year deal for an undisclosed fee</media:description>
+            <media:license href="http://www.youtube.com/t/terms" type="text/html">youtube</media:license>
+            <media:player url="http://www.youtube.com/watch?v=cn5qv9d4jbE&amp;feature=youtube_gdata_player"/>
+            <media:restriction relationship="deny" type="country">DE</media:restriction>
+            <media:thumbnail height="90" time="00:01:07" url="http://i.ytimg.com/vi/cn5qv9d4jbE/default.jpg" width="120" yt:name="default"/>
+            <media:thumbnail height="180" url="http://i.ytimg.com/vi/cn5qv9d4jbE/mqdefault.jpg" width="320" yt:name="mqdefault"/>
+            <media:thumbnail height="360" url="http://i.ytimg.com/vi/cn5qv9d4jbE/hqdefault.jpg" width="480" yt:name="hqdefault"/>
+            <media:thumbnail height="90" time="00:00:33.500" url="http://i.ytimg.com/vi/cn5qv9d4jbE/1.jpg" width="120" yt:name="start"/>
+            <media:thumbnail height="90" time="00:01:07" url="http://i.ytimg.com/vi/cn5qv9d4jbE/2.jpg" width="120" yt:name="middle"/>
+            <media:thumbnail height="90" time="00:01:40.500" url="http://i.ytimg.com/vi/cn5qv9d4jbE/3.jpg" width="120" yt:name="end"/>
+            <media:title type="plain">Nick Powell - Welcome to Manchester United</media:title>
+            <yt:duration seconds="134"/>
+         </media:group>
+      </item>
+      <item>
+         <title>Shinji Kagawa - Let He Rocks in Manchester United</title>
+         <link>http://www.youtube.com/watch?v=71VrgYIgW1c&amp;feature=youtube_gdata</link>
+         <author>jsmhe</author>
+         <guid isPermaLink="false">tag:youtube.com,2008:video:71VrgYIgW1c</guid>
+         <pubDate>Thu, 14 Jun 2012 11:40:42 +0000</pubDate>
+         <media:group>
+            <media:category label="Sports" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Sports</media:category>
+            <media:content duration="234" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="http://www.youtube.com/v/71VrgYIgW1c?version=3&amp;f=videos&amp;app=youtube_gdata" yt:format="5"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="jsmhe">jsmhe</media:credit>
+            <media:description type="plain">Note: If You are in Germany, I'm sorry the video got blocked in that location due of the song Player: Shinji Kagawa Club: Manchester United (Borussia Dortmund - 2010-2012) Nationality: Japan Song: Kevin Rudolf-Let It Rock</media:description>
+            <media:license href="http://www.youtube.com/t/terms" type="text/html">youtube</media:license>
+            <media:player url="http://www.youtube.com/watch?v=71VrgYIgW1c&amp;feature=youtube_gdata_player"/>
+            <media:restriction relationship="deny" type="country">DE</media:restriction>
+            <media:thumbnail height="90" time="00:01:57" url="http://i.ytimg.com/vi/71VrgYIgW1c/default.jpg" width="120" yt:name="default"/>
+            <media:thumbnail height="180" url="http://i.ytimg.com/vi/71VrgYIgW1c/mqdefault.jpg" width="320" yt:name="mqdefault"/>
+            <media:thumbnail height="360" url="http://i.ytimg.com/vi/71VrgYIgW1c/hqdefault.jpg" width="480" yt:name="hqdefault"/>
+            <media:thumbnail height="90" time="00:00:58.500" url="http://i.ytimg.com/vi/71VrgYIgW1c/1.jpg" width="120" yt:name="start"/>
+            <media:thumbnail height="90" time="00:01:57" url="http://i.ytimg.com/vi/71VrgYIgW1c/2.jpg" width="120" yt:name="middle"/>
+            <media:thumbnail height="90" time="00:02:55.500" url="http://i.ytimg.com/vi/71VrgYIgW1c/3.jpg" width="120" yt:name="end"/>
+            <media:title type="plain">Shinji Kagawa - Let He Rocks in Manchester United</media:title>
+            <yt:duration seconds="234"/>
+         </media:group>
+      </item>
+      <item>
+         <title>Real Madrid Legends 3 - 2 Manchester United Legends All Goals HD [03/06/2012]</title>
+         <link>http://www.youtube.com/watch?v=2IwSO-TgmQE&amp;feature=youtube_gdata</link>
+         <author>ChepsiHD3</author>
+         <guid isPermaLink="false">tag:youtube.com,2008:video:2IwSO-TgmQE</guid>
+         <pubDate>Mon, 04 Jun 2012 12:25:59 +0000</pubDate>
+         <media:group>
+            <media:category label="Sports" scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Sports</media:category>
+            <media:content duration="425" expression="full" isDefault="true" medium="video" type="application/x-shockwave-flash" url="http://www.youtube.com/v/2IwSO-TgmQE?version=3&amp;f=videos&amp;app=youtube_gdata" yt:format="5"/>
+            <media:content duration="425" expression="full" medium="video" type="video/3gpp" url="rtsp://v7.cache7.c.youtube.com/CiILENy73wIaGQkBmeDkOxKM2BMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp" yt:format="1"/>
+            <media:content duration="425" expression="full" medium="video" type="video/3gpp" url="rtsp://v7.cache4.c.youtube.com/CiILENy73wIaGQkBmeDkOxKM2BMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="ChepsiHD3">chepsihd3</media:credit>
+            <media:description type="plain">Real Madrid Legends 3 - 2 Manchester United Legends All Goals &amp;amp; Highlights HD [03/06/2012] Real Madrid Legends vs Manchester United Legends (3-2) All Goals &amp;amp; Highlights HD [03.06.2012] Real Madrid Legends vs Manchester United Legends (3-2) All Goals &amp;amp; Highlights HD [03-06-2012] Luis Figo Amazing Goal vs Manchester United Legends HD [03/06/2012] 8' [1 - 0] Fernando Morientes 9' [1 - 0] Lee Stuart Sharpe 11' [1 - 1] Luis Figo 69' [3 - 1] Fernando Redondo 80' [3 - 2] Teddy Sheringham</media:description>
+            <media:license href="http://www.youtube.com/t/terms" type="text/html">youtube</media:license>
+            <media:player url="http://www.youtube.com/watch?v=2IwSO-TgmQE&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail height="90" time="00:03:32.500" url="http://i.ytimg.com/vi/2IwSO-TgmQE/default.jpg" width="120" yt:name="default"/>
+            <media:thumbnail height="180" url="http://i.ytimg.com/vi/2IwSO-TgmQE/mqdefault.jpg" width="320" yt:name="mqdefault"/>
+            <media:thumbnail height="360" url="http://i.ytimg.com/vi/2IwSO-TgmQE/hqdefault.jpg" width="480" yt:name="hqdefault"/>
+            <media:thumbnail height="90" time="00:01:46.250" url="http://i.ytimg.com/vi/2IwSO-TgmQE/1.jpg" width="120" yt:name="start"/>
+            <media:thumbnail height="90" time="00:03:32.500" url="http://i.ytimg.com/vi/2IwSO-TgmQE/2.jpg" width="120" yt:name="middle"/>
+            <media:thumbnail height="90" time="00:05:18.750" url="http://i.ytimg.com/vi/2IwSO-TgmQE/3.jpg" width="120" yt:name="end"/>
+            <media:title type="plain">Real Madrid Legends 3 - 2 Manchester United Legends All Goals HD [03/06/2012]</media:title>
+            <yt:duration seconds="425"/>
+         </media:group>
+      </item>
+   </channel>
+</rss>
+<!-- fe3.pipes.ch1.yahoo.com uncompressed/chunked Wed Jun 20 09:02:12 UTC 2012 -->
