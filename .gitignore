@@ -28,3 +28,5 @@ dump.rdb
 dump.rdb
 
 public/data/livepool_feed.xml
+
+public/js/.DS_Store

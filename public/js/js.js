@@ -116,6 +116,18 @@ function main()
 					}
 					
 				});
+				self.socket.on('destroyed', function (data){
+					if( data )
+					{
+						console.log(data);
+						var parent = $('#team_'+data.name+'_box');
+						parent.fadeOut(300, function(){
+							$(this).remove();
+						});
+						console.log( parent.attr('id') );
+					}
+					
+				});
 				self.socket.on('started', function (data) 
 				{
 					if(data)
@@ -172,9 +184,9 @@ function main()
 					console.log( "the lenght of ps in messages is " + $(this).children('p').length );
 					if( $(this).children('p').length > 4 )
 					{
-						for(var i=1;i<4;i++)
+						for(var i=1; i < 4; i++)
 						{
-							$(this).children('p').eq(i).fadeOut(300, function(){
+							$(this).children('p').eq(i).fadeOut(200, function(){
 								$(this).remove();
 								console.log( $(this).attr('class'), 'removed')
 							});
@@ -185,7 +197,7 @@ function main()
 			},
 			boxFields:function(name, container)
 			{
-				var fields = ['index', 'name', 'url', 'status', 'timestamp', 'file'];
+				var fields = ['index', 'name', 'url', 'file', 'status'];
 				$.each(fields, function(key, value){
 					var field = $('<input type="hidden" name="'+name+'_'+value+'" value="" id="'+name+'_'+value+'">');
 					container.append(field);
